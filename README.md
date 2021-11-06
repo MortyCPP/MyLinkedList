@@ -9,6 +9,8 @@ C++实现单向链表
 - addAtTail(val)：将值为`val`的节点追加到链表的最后一个元素。
 - addAtIndex(index,val)：在链表中的第`index`个节点之前添加值为`val`的节点。如果`index`等于链表的长度，则该节点将附加到链表的末尾。如果`index`大于链表长度，则不会插入节点。如果`index`小于0，则在头部插入节点。
 - deleteAtIndex(index)：如果索引`index`有效，则删除链表中的第`index`个节点。
+
+**示例：**
 ```
 MyLinkedList linkedList = new MyLinkedList();
 linkedList.addAtHead(1);
